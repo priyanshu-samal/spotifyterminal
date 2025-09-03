@@ -14,8 +14,8 @@ async fn main() -> Result<()> {
     // Please replace these with your own client ID and secret.
     // You can get them from the Spotify Developer Dashboard:
     // https://developer.spotify.com/dashboard/
-    let client_id = "a2c1bd553919449faf0d388478d47f6e".to_string();
-    let client_secret = "5da2eab592f24a0b9d4a29c5dc5c4927".to_string();
+    let client_id = "".to_string();
+    let client_secret = "".to_string();
 
     let spotify = match config::load_tokens()? {
         Some(tokens) => {
